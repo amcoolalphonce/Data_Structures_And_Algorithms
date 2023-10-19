@@ -12,4 +12,7 @@ class Node
                 this->next = NULL;
         }
         void printList()
+        {
+                Node *temp = this;      
+        }
 }
