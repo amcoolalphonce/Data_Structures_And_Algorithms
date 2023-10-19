@@ -14,6 +14,9 @@ class Node
         void printList()
         {
                 Node *temp = this;
-                while( temp ! = NULL)      
+                while( temp ! = NULL)  
+                {
+                        cout<<temp->data<<"";
+                }    
         }
 }
