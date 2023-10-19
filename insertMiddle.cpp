@@ -25,5 +25,6 @@ class Node
         {
                 Node *tail = new Node(newElement);
                 Node *nodePtr = this;
+                while(nodePtr != NULL)
         }
 }
