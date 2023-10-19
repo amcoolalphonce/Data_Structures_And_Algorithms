@@ -13,6 +13,7 @@ class Node
         }
         void printList()
         {
-                Node *temp = this;      
+                Node *temp = this;
+                while( temp ! = NULL)      
         }
 }
