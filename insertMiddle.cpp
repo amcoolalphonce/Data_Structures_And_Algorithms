@@ -18,6 +18,7 @@ class Node
                 {
                         cout<<temp->data<<"";
                         temp = temp->next;
-                }    
+                }
+                cout<<endl;
         }
 }
