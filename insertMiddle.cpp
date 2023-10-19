@@ -22,4 +22,7 @@ class Node
                 cout<<endl;
         }
         void insertTail(int newElement)
+        {
+                Node *tail = new Node(newElement);
+        }
 }
