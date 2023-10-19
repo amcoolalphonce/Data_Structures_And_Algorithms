@@ -3,5 +3,5 @@ using namsespace std;
 
 class Node
 {
-        
+        public:
 }
