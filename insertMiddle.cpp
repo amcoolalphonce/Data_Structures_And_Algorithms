@@ -24,5 +24,6 @@ class Node
         void insertTail(int newElement)
         {
                 Node *tail = new Node(newElement);
+                Node *nodePtr = this;
         }
 }
