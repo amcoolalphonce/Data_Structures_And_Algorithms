@@ -28,6 +28,9 @@ class Node
                 while(nodePtr != NULL)
                 {
                         if(nodePtr->next == NULL)
+                        {
+                                nodePtr->next = tail;
+                        }
                 }
         }
 }
