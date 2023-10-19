@@ -30,6 +30,7 @@ class Node
                         if(nodePtr->next == NULL)
                         {
                                 nodePtr->next = tail;
+                                nodePtr = tail;
                         }
                 }
         }
