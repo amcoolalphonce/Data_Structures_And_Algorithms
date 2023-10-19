@@ -21,4 +21,5 @@ class Node
                 }
                 cout<<endl;
         }
+        void insertTail(int newElement)
 }
