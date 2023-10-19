@@ -9,5 +9,6 @@ class Node
         Node(int x)
         {
                 this->data = x;
+                this->next = NULL;
         }
 }
