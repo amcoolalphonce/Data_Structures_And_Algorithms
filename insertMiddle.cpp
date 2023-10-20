@@ -52,6 +52,9 @@ class Node
                 {
                         index++;
                         if(index == position)
+                        {
+                                middle->next = temp->next;
+                        }
                 }
         }
 }
