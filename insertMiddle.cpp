@@ -41,5 +41,6 @@ class Node
                 Node *temp = this;
                 head->next = temp;
                 temp = head;
+                return temp;
         }
 }
