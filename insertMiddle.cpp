@@ -38,5 +38,6 @@ class Node
         Node *insertHead(int newElement)
         {
                 Node *head = new Node(newElement);
+                Node *temp = this;
         }
 }
