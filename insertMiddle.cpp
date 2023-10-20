@@ -56,6 +56,7 @@ class Node
                                 middle->next = temp->next;
                                 temp->next = middle;
                         }
+                        temp = temp->next;
                 }
         }
 }
