@@ -32,6 +32,31 @@ class Node
                                 nodePtr->next = tail;
                                 nodePtr = tail;
                         }
+                        nodePtr = nodePtr->next;
+                }
+        }
+        Node *insertHead(int newElement)
+        {
+                Node *head = new Node(newElement);
+                Node *temp = this;
+                head->next = temp;
+                temp = head;
+                return temp;
+        }
+        void insertMiddle(int newElement , int position)
+        {
+                Node *middle = new Node(newElement);
+                Node *temp = this;
+                int index = 0;
+                while(temp != NULL)
+                {
+                        index++;
+                        if(index == position)
+                        {
+                                middle->next = temp->next;
+                                temp->next = middle;
+                        }
+                        temp = temp->next;
                 }
         }
 }
