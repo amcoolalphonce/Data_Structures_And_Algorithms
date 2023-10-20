@@ -47,5 +47,6 @@ class Node
         {
                 Node *middle = new Node(newElement);
                 Node *temp = this;
+                int index = 0;
         }
 }
