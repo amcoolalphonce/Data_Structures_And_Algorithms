@@ -32,6 +32,7 @@ class Node
                                 nodePtr->next = tail;
                                 nodePtr = tail;
                         }
+                        nodePtr = nodePtr->next;
                 }
         }
 }
