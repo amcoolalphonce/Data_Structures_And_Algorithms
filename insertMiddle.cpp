@@ -51,6 +51,7 @@ class Node
                 while(temp != NULL)
                 {
                         index++;
+                        if(index == position)
                 }
         }
 }
