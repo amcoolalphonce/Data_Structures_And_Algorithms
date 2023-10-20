@@ -40,5 +40,6 @@ class Node
                 Node *head = new Node(newElement);
                 Node *temp = this;
                 head->next = temp;
+                temp = head;
         }
 }
