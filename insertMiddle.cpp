@@ -54,6 +54,7 @@ class Node
                         if(index == position)
                         {
                                 middle->next = temp->next;
+                                temp->next = middle;
                         }
                 }
         }
