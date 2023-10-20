@@ -35,4 +35,5 @@ class Node
                         nodePtr = nodePtr->next;
                 }
         }
+        Node *insertHead(int newElement)
 }
