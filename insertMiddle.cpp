@@ -49,5 +49,8 @@ class Node
                 Node *temp = this;
                 int index = 0;
                 while(temp != NULL)
+                {
+                        index++;
+                }
         }
 }
