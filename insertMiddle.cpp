@@ -44,4 +44,7 @@ class Node
                 return temp;
         }
         void insertMiddle(int newElement , int position)
+        {
+                Node *middle = new Node(newElement);
+        }
 }
