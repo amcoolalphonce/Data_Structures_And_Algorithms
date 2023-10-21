@@ -64,5 +64,7 @@ int main()
 {
         Node *myList;
         int n, temp;
+
+        cout<<"How many elements do you want bto enter?"
         cin>>n;
 }
