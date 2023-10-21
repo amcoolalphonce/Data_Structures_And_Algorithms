@@ -71,5 +71,8 @@ int main()
         cin>>temp;
         myList = new Node(temp);
 
-        forf (int i = 0; i< n-1; i++)
+        for (int i = 0; i< n-1; i++)
+        {
+                cout<<"Enter the necxt element: ";
+        }
 }
