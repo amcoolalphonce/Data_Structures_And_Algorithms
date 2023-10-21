@@ -61,3 +61,6 @@ class Node
         }
 };
 int main()
+{
+        Node *myList;
+}
