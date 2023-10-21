@@ -64,4 +64,5 @@ int main()
 {
         Node *myList;
         int n, temp;
+        cin>>n;
 }
