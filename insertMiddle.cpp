@@ -59,4 +59,24 @@ class Node
                         temp = temp->next;
                 }
         }
+};
+int main()
+{
+        Node *myList;
+        int n, temp;
+
+        cout<<"How many elements do you want to enter?"
+        cin>>n;
+        cout<<"Enter the first element \n";
+        cin>>temp;
+        myList = new Node(temp);
+
+        for (int i = 0; i< n-1; i++)
+        {
+                cout<<"Enter the next element: ";
+                cin>>temp;
+                myList = myList->insertTail(temp);
+        }
+        myList->printList();
+        int newElement;
 }
