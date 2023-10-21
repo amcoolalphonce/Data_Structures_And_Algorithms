@@ -69,4 +69,5 @@ int main()
         cin>>n;
         cout<<"Enter the first element \n";
         cin>>temp;
+        myList = new Node(temp);
 }
