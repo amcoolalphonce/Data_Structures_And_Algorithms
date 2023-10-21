@@ -67,4 +67,5 @@ int main()
 
         cout<<"How many elements do you want to enter?"
         cin>>n;
+        cout<<"Ente rthe first element \n";
 }
