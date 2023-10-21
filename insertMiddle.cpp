@@ -63,4 +63,5 @@ class Node
 int main()
 {
         Node *myList;
+        int n, temp;
 }
