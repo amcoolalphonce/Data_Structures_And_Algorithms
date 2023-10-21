@@ -77,4 +77,6 @@ int main()
                 cin>>temp;
                 myList = myList->insertTail(temp);
         }
+        myList->printList();
+        int newElement;
 }
