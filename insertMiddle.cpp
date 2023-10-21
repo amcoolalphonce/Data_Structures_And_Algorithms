@@ -70,4 +70,6 @@ int main()
         cout<<"Enter the first element \n";
         cin>>temp;
         myList = new Node(temp);
+
+        forf (int i = 0; i< n-1; i++)
 }
