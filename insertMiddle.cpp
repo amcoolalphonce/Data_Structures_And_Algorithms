@@ -73,6 +73,8 @@ int main()
 
         for (int i = 0; i< n-1; i++)
         {
-                cout<<"Enter the necxt element: ";
+                cout<<"Enter the next element: ";
+                cin>>temp;
+                myList = myList->insertTail(temp);
         }
 }
