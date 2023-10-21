@@ -68,4 +68,5 @@ int main()
         cout<<"How many elements do you want to enter?"
         cin>>n;
         cout<<"Enter the first element \n";
+        cin>>temp;
 }
