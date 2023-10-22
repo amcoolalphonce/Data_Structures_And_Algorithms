@@ -91,4 +91,6 @@ int main()
         myList->insertMiddle(23,4);
         cout<<"After inserting the element at index 2, the list is as follows:";
         myList->printList();
+
+        return 0;
 }
