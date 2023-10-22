@@ -85,5 +85,5 @@ int main()
 
         cout<<"Enter another element to insert at the head:";
         cin>>newElement;
-        myList = myList->insertHead(newElement)
+        myList = myList->insertHead(newElement);
 }
