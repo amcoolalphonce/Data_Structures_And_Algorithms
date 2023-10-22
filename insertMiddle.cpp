@@ -80,5 +80,6 @@ int main()
         myList->printList();
         int newElement;
         cout<<"Enter an element to insert at the head:";
+        cin>>newElement;
         
 }
