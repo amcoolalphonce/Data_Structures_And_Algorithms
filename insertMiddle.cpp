@@ -87,4 +87,6 @@ int main()
         cin>>newElement;
         myList = myList->insertHead(newElement);
         myList->printList();
+
+        myList->insertMiddle(23,4);
 }
