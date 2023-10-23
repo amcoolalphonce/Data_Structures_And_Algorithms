@@ -20,4 +20,6 @@ int main(int argc, char* argv[])
         k = atoi(argv[1]);
         cout<<"Plaintext:";
         getline(cin, text);
+
+        string cyphertext = caesar(k, text);
 }
