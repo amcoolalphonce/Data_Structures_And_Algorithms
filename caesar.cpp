@@ -15,5 +15,6 @@ int main(int argc, char* argv[])
         {
                 cout<<"Usage:./caesar k\n";
                 return 3;
+                exit(EXIT_FAILURE);
         }
 }
