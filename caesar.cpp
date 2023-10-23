@@ -18,4 +18,5 @@ int main(int argc, char* argv[])
                 exit(EXIT_FAILURE);
         }
         k = atoi(argv[1]);
+        cout<<"Plaintext:";
 }
