@@ -14,5 +14,6 @@ int main(int argc, char* argv[])
         if (argc != 2)
         {
                 cout<<"Usage:./caesar k\n";
+                return 3;
         }
 }
