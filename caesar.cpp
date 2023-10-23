@@ -11,4 +11,5 @@ int main(int argc, char* argv[])
 {
         int k;
         string text;
+        if (argc != 2)
 }
