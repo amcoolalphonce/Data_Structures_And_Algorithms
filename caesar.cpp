@@ -21,5 +21,6 @@ int main(int argc, char* argv[])
         cout<<"Plaintext:";
         getline(cin, text);
 
-        string cyphertext = caesar(k, text);
+        string ciphertext = caesar(k, text);
+        cout<<"Ciphertext:"<<ciphertext<<endl;
 }
