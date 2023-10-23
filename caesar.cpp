@@ -4,3 +4,5 @@
 #include<cctype>
 
 using namespace std;
+
+string caesar(int k, string plaintext);
