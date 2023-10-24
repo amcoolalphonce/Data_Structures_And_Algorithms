@@ -43,4 +43,5 @@ string caesar(int k, string plaintext)
         }
         diff = (plaintext[i] - ascii + k)%26;
         ascii+ = diff;
+        plaintext[i] = (char)ascii;
 }
