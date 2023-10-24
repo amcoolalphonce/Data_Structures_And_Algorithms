@@ -25,3 +25,4 @@ int main(int argc, char* argv[])
         cout<<"Ciphertext:"<<ciphertext<<endl;
         return 0;
 }
+string caesar(int k, string plaintext)
