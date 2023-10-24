@@ -37,4 +37,8 @@ string caesar(int k, string plaintext)
         {
                 ascii = 97;
         }
+        else if(!isupper(plaintext[i]) && !islower(plaintext[i]))
+        {
+                
+        }
 }
