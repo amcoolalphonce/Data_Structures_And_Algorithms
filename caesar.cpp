@@ -33,4 +33,8 @@ string caesar(int k, string plaintext)
         {
                 ascii = 65;
         }
+        els if(islower(plaintext[i]))
+        {
+                
+        }
 }
