@@ -23,4 +23,29 @@ int main(int argc, char* argv[])
 
         string ciphertext = caesar(k, text);
         cout<<"Ciphertext:"<<ciphertext<<endl;
+        return 0;
+}
+string caesar(int k, string plaintext)
+{
+        for(int i = 0; i<plaintext.length(); i++)
+        {
+                int ascii = 0;
+                int diff;
+                if (isupper(plaintext[i]))
+                {
+                        ascii = 65;
+                }
+                else if (islower(plaintext[i]))
+                {
+                        ascii = 97;
+                }
+                else if (!isupper(plaintext[i]) && !islower(plaintext[i]))
+                {
+                        continue;
+                }
+                diff = (plaintext[i] - ascii + k) % 26;
+                ascii + = diff;
+                plaintext[i] = (char)ascii;
+        }
+        return plaintext;
 }
