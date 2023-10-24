@@ -27,6 +27,8 @@ int main(int argc, char* argv[])
 }
 string caesar(int k, string plaintext)
 {
+        for(int i = 0; i<plaintext.length(); i++)
+        {
         int ascii = 0;
         int diff;
         if (isupper(plaintext[i]))
@@ -44,4 +46,5 @@ string caesar(int k, string plaintext)
         diff = (plaintext[i] - ascii + k)%26;
         ascii+ = diff;
         plaintext[i] = (char)ascii;
+}
 }
