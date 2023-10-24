@@ -35,6 +35,6 @@ string caesar(int k, string plaintext)
         }
         els if(islower(plaintext[i]))
         {
-                
+                ascii = 97;
         }
 }
