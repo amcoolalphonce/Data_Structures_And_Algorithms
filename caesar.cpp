@@ -23,4 +23,5 @@ int main(int argc, char* argv[])
 
         string ciphertext = caesar(k, text);
         cout<<"Ciphertext:"<<ciphertext<<endl;
+        return 0;
 }
