@@ -29,4 +29,5 @@ string caesar(int k, string plaintext)
 {
         int ascii = 0;
         int diff;
+        if (isupper(plaintext[i]))
 }
