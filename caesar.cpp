@@ -26,3 +26,7 @@ int main(int argc, char* argv[])
         return 0;
 }
 string caesar(int k, string plaintext)
+{
+        int ascii = 0;
+        int diff;
+}
