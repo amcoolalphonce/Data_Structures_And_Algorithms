@@ -41,5 +41,5 @@ string caesar(int k, string plaintext)
         {
                 continue;
         }
-        diff = (plaintext[i] - ascii + k)
+        diff = (plaintext[i] - ascii + k)%26;
 }
