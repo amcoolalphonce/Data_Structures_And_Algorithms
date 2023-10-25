@@ -16,5 +16,7 @@ class Stack
                 top = -1;
         }
         int size();
-        bool isEmpy;
+        bool isEmpty;
+        bool push(int newElement);
+        int pop();
 }
