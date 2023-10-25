@@ -21,4 +21,4 @@ class Stack
         int pop();
         int peek();
         void printStack();
-}
+};
