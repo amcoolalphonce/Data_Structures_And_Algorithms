@@ -39,3 +39,8 @@ bool Stack::isEmpty()
                 return false;
         }
 }
+
+bool Stack::push(nt newElement)
+{
+        
+}
