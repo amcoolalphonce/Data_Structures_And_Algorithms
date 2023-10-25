@@ -30,5 +30,12 @@ int Stack::size()
 
 bool Stack::isEmpty()
 {
-        
+        if (Stack::SizeOfStack == 0)
+        {
+                return true;
+        }
+        else
+        {
+                return false;
+        }
 }
