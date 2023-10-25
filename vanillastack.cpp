@@ -6,5 +6,6 @@ using namespace std;
 
 class Stack
 {
-        
+        int SizeOfStack;
+        int satckArray[CAPACIITY]
 }
