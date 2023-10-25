@@ -11,4 +11,8 @@ class Stack
         int top;
         public:
         Stack()
+        {
+                SizeOfStack = 0;
+                top = -1;
+        }
 }
