@@ -27,3 +27,8 @@ int Stack::size()
 {
         return Stack::SizeOfStack;
 }
+
+bool Stack::isEmpty()
+{
+        
+}
