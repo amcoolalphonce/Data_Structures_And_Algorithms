@@ -19,4 +19,6 @@ class Stack
         bool isEmpty;
         bool push(int newElement);
         int pop();
+        int peek();
+        void printStack();
 }
