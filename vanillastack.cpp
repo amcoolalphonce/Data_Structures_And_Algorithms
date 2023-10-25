@@ -15,4 +15,6 @@ class Stack
                 SizeOfStack = 0;
                 top = -1;
         }
+        int size();
+        bool isEmpy;
 }
