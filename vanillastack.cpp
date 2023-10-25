@@ -3,3 +3,8 @@
 
 #define CAPACIITY 5
 using namespace std;
+
+class Stack
+{
+        
+}
