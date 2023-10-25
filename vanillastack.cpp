@@ -22,3 +22,5 @@ class Stack
         int peek();
         void printStack();
 };
+
+int Stack::size()
