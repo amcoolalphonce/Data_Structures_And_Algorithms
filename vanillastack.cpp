@@ -24,3 +24,6 @@ class Stack
 };
 
 int Stack::size()
+{
+        return Stack::SizeOfStack;
+}
