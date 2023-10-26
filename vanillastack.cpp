@@ -68,3 +68,8 @@ int Stack::pop()
                 return Stack::stackArray[Stack::top];
         }
 }
+
+int Stack::peek()
+{
+        
+}
