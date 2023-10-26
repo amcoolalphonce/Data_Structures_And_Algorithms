@@ -42,5 +42,5 @@ bool Stack::isEmpty()
 
 bool Stack::push(int newElement)
 {
-        
+        if(Stack::SizeOfStack >= CAPACIITY)
 }
