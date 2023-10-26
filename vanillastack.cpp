@@ -40,7 +40,7 @@ bool Stack::isEmpty()
         }
 }
 
-bool Stack::push(nt newElement)
+bool Stack::push(int newElement)
 {
         
 }
