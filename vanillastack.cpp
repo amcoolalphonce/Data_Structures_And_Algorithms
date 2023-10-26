@@ -40,7 +40,44 @@ bool Stack::isEmpty()
         }
 }
 
-bool Stack::push(nt newElement)
+bool Stack::push(int newElement)
 {
-        
+        if(Stack::SizeOfStack >= CAPACIITY)
+        {
+                return false;
+        }
+        else
+        {
+                top++;
+                Stack::stackArray[Stack::top] = newElement;
+                Stack::SizeOfStack++;
+                return true;
+        }
 }
+
+int Stack::pop()
+{
+        if(Stack::SizeOfStack <= 0)
+        {
+                return INT_MAX;
+        }
+        else
+        {
+                SizeOfStack--;
+                Stack::top--;
+                return Stack::stackArray[Stack::top];
+        }
+}
+
+int Stack::peek()
+{
+        if(Stack::SizeOfStack <= 0)
+        {
+                return INT_MAX;
+        }
+        else
+        {
+                return Stack::stackArray[Stack::top];
+        }
+}
+//print stack function to continue
