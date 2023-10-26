@@ -50,5 +50,6 @@ bool Stack::push(int newElement)
         {
                 top++;
                 Stack::stackArray[Stack::top] = newElement;
+                Stack::SizeOfStack++;
         }
 }
