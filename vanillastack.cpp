@@ -56,3 +56,6 @@ bool Stack::push(int newElement)
 }
 
 int Stack::pop()
+{
+        if(Stack::SizeOfStack <= 0)
+}
