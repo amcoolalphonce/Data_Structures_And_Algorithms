@@ -48,6 +48,7 @@ bool Stack::push(int newElement)
         }
         else
         {
-                
+                top++;
+                Stack::stackArray[Stack::top]
         }
 }
