@@ -77,6 +77,6 @@ int Stack::peek()
         }
         else
         {
-                return
+                return Stack::stackArray[Stack::top];
         }
 }
