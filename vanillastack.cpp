@@ -73,6 +73,6 @@ int Stack::peek()
 {
         if(Stack::SizeOfStack <= 0)
         {
-                
+                return INT_MAX;
         }
 }
