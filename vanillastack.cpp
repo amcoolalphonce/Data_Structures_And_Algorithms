@@ -65,5 +65,6 @@ int Stack::pop()
         {
                 SizeOfStack--;
                 Stack::top--;
+                return Stack::stackArray[Stack::top];
         }
 }
