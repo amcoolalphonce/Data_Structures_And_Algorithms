@@ -49,6 +49,6 @@ bool Stack::push(int newElement)
         else
         {
                 top++;
-                Stack::stackArray[Stack::top]
+                Stack::stackArray[Stack::top] = newElement;
         }
 }
