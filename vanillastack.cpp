@@ -80,3 +80,4 @@ int Stack::peek()
                 return Stack::stackArray[Stack::top];
         }
 }
+//print stack function to continue
