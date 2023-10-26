@@ -46,4 +46,8 @@ bool Stack::push(int newElement)
         {
                 return false;
         }
+        else
+        {
+                
+        }
 }
