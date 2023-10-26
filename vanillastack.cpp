@@ -71,5 +71,8 @@ int Stack::pop()
 
 int Stack::peek()
 {
-        
+        if(Stack::SizeOfStack <= 0)
+        {
+                
+        }
 }
