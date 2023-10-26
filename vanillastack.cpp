@@ -75,4 +75,8 @@ int Stack::peek()
         {
                 return INT_MAX;
         }
+        else
+        {
+                return
+        }
 }
