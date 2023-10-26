@@ -54,3 +54,5 @@ bool Stack::push(int newElement)
                 return true;
         }
 }
+
+int Stack::pop()
