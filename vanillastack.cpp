@@ -61,4 +61,9 @@ int Stack::pop()
         {
                 return INT_MAX;
         }
+        else
+        {
+                SizeOfStack--;
+                Stack::top--;
+        }
 }
