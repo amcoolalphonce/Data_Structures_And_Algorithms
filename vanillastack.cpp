@@ -102,5 +102,5 @@ int main()
         //Testing of the stack operations
         Stack vanillaStack;
         //Print out the current size of vanillaStack
-        cout<<"Size of the stack"
+        cout<<"Size of the stack: "<<vanillaStack.size()<<endl;
 }
