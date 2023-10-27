@@ -122,6 +122,10 @@ int main()
         }
         if (vanillaStack.push(7))
         {
-                vanillaStack.printStack();
+                vanillaStack.printStack();// output should be 5 3 8 6 7
+        }
+        if (vanillaStack.push(10))
+        {
+                vanillaStack.printStack();//no otput due to stack Overflow
         }
 }
