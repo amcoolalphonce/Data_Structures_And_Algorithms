@@ -128,4 +128,7 @@ int main()
         {
                 vanillaStack.printStack();//no otput due to stack Overflow
         }
+
+        //print out the size of the current vanillaStack
+        cout<<"Size of the stack: "<<vanillaStack.size()<<endl;
 }
