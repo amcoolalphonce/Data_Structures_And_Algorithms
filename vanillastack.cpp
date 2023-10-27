@@ -98,3 +98,7 @@ void Stack::printStack()
 }
 
 int main()
+{
+        //Testing of the stack operations
+        Stack vanillaStack;
+}
