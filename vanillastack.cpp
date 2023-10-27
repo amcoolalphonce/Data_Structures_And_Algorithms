@@ -103,4 +103,7 @@ int main()
         Stack vanillaStack;
         //Print out the current size of vanillaStack
         cout<<"Size of the stack: "<<vanillaStack.size()<<endl;
+
+        if (vanillaStack.push(5)) vanillaStack.printStack(); // output should be: 5
+
 }
