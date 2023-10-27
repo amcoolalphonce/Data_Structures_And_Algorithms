@@ -130,5 +130,6 @@ int main()
         }
 
         //print out the size of the current vanillaStack
-        cout<<"Size of the stack: "<<vanillaStack.size()<<endl;
+        cout<<"Size of the stack: "<<vanillaStack.size()<<endl;// size should be 5
+        cout<<"A peek at the top of the stack reveals: "<<vanillaStack.peek()<<endl;//7 expected
 }
