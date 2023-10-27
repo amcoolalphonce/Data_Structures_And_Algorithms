@@ -81,3 +81,4 @@ int Stack::peek()
         }
 }
 //print stack function to continue
+void Stack::printStack()
