@@ -109,5 +109,7 @@ int main()
                 vanillaStack.printStack(); // output should be: 5
         }
         if (vanillaStack.push(3))
-        
+        {
+                vanillaStack.printStack()//output should be 5 3
+        }
 }
