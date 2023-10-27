@@ -110,15 +110,15 @@ int main()
         }
         if (vanillaStack.push(3))
         {
-                vanillaStack.printStack()//output should be 5 3
+                vanillaStack.printStack();//output should be 5 3
         }
         if (vanillaStack.push(8))
         {
-                vanillaStack.printStack()//output shoukld be 5 3 8
+                vanillaStack.printStack();//output shoukld be 5 3 8
         }
         if (vanillaStack.push(6))
         {
-                vanillaStack.printStack()//output should be 5 3 8 6
+                vanillaStack.printStack();//output should be 5 3 8 6
         }
         if (vanillaStack.push(7))
         {
