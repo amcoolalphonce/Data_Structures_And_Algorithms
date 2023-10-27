@@ -116,4 +116,8 @@ int main()
         {
                 vanillaStack.printStack()//output shoukld be 5 3 8
         }
+        if (vanillaStack.push(6))
+        {
+                vanillaStack.printStack()//output should be 5 3 8 6
+        }
 }
