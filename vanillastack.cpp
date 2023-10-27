@@ -81,3 +81,58 @@ int Stack::peek()
         }
 }
 //print stack function to continue
+void Stack::printStack()
+{
+        if(Stack::SizeOfStack <= 0)
+        {
+                cout<<INT_MAX;
+        }
+        else
+        {
+                for(int j = 0; j < Stack::SizeOfStack; j++)
+                {
+                        cout<<Stack::stackArray[j]<<"";
+                }
+        }
+        cout<<endl;
+}
+
+int main()
+{
+        //Testing of the stack operations
+        Stack vanillaStack;
+        //Print out the current size of vanillaStack
+        cout<<"Size of the stack: "<<vanillaStack.size()<<endl;
+
+        if (vanillaStack.push(5))
+        {
+                vanillaStack.printStack(); // output should be: 5
+        }
+        if (vanillaStack.push(3))
+        {
+                vanillaStack.printStack();//output should be 5 3
+        }
+        if (vanillaStack.push(8))
+        {
+                vanillaStack.printStack();//output shoukld be 5 3 8
+        }
+        if (vanillaStack.push(6))
+        {
+                vanillaStack.printStack();//output should be 5 3 8 6
+        }
+        if (vanillaStack.push(7))
+        {
+                vanillaStack.printStack();// output should be 5 3 8 6 7
+        }
+        if (vanillaStack.push(10))
+        {
+                vanillaStack.printStack();//no otput due to stack Overflow
+        }
+
+        //print out the size of the current vanillaStack
+        cout<<"Size of the stack: "<<vanillaStack.size()<<endl;// size should be 5
+        cout<<"A peek at the top of the stack reveals: "<<vanillaStack.peek()<<endl;//7 expected
+
+        vanillaStack.pop();
+        vanillaStack.printStack();// 5 3  8 6
+}
