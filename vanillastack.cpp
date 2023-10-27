@@ -94,4 +94,7 @@ void Stack::printStack()
                         cout<<Stack::stackArray[j]<<"";
                 }
         }
+        cout<<endl;
 }
+
+int main()
