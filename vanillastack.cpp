@@ -120,4 +120,8 @@ int main()
         {
                 vanillaStack.printStack()//output should be 5 3 8 6
         }
+        if (vanillaStack.push(7))
+        {
+                vanillaStack.printStack();
+        }
 }
