@@ -89,6 +89,6 @@ void Stack::printStack()
         }
         else
         {
-                
+                for(int j = 0; j < Stack::SizeOfStack; j++)
         }
 }
