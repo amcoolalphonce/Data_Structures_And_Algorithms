@@ -84,5 +84,11 @@ int Stack::peek()
 void Stack::printStack()
 {
         if(Stack::SizeOfStack <= 0)
-        {cout<<INT_MAX;}
+        {
+                cout<<INT_MAX;
+        }
+        else
+        {
+                
+        }
 }
