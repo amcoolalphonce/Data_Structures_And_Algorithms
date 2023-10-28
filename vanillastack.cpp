@@ -145,4 +145,5 @@ int main()
         vanillaStack.printStack(); // output should be: 2147483647, which is INT_MAX and inidicates an attempt to print an empty stack
         
         //Try to pop from an empty stack
+        cout<<"Popping from an empty stack reveals: "<<
 }
