@@ -140,4 +140,5 @@ int main()
         vanillaStack.pop();
         vanillaStack.printStack();// 5 3 
         vanillaStack.pop();
+        vanillaStack.printStack(); // 5
 }
