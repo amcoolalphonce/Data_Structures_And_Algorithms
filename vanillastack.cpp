@@ -134,5 +134,18 @@ int main()
         cout<<"A peek at the top of the stack reveals: "<<vanillaStack.peek()<<endl;//7 expected
 
         vanillaStack.pop();
-        vanillaStack.printStack();// 5 3  8 6
+        vanillaStack.printStack();// 5 3  8  6
+        vanillaStack.pop();
+        vanillaStack.printStack(); // 5 3  8
+        vanillaStack.pop();
+        vanillaStack.printStack();// 5 3 
+        vanillaStack.pop();
+        vanillaStack.printStack(); // 5
+        vanillaStack.pop();
+        vanillaStack.printStack(); // output should be: 2147483647, which is INT_MAX and inidicates an attempt to print an empty stack
+        
+        //Try to pop from an empty stack
+        cout << "Popping from an empty stack reveals: " << vanillaStack.pop() << endl; // output should be: 2147483647, which is INT_MAX and inidicates an attempt to print an empty stack
+
+        return 0;
 }
