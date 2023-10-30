@@ -22,4 +22,4 @@ class Node
                         temp = temp->next;
                 }
         }
-}
+};
