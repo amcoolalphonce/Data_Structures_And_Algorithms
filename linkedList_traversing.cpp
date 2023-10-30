@@ -43,5 +43,6 @@ int main()
         node3 = new Node(temp);
         node2->next = node3;
         cout << "The state of the linked list is as follows: ";
-        myList->printList()
+        myList->printList();
+        // output should be 10 20 30
 }
