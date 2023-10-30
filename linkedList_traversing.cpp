@@ -27,5 +27,5 @@ class Node
 //main function to test the code
 int main()
 {
-        
+        Node *myList = NULL, *node2 = NULL, *node3 = NULL;
 }
