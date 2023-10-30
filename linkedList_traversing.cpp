@@ -28,4 +28,6 @@ class Node
 int main()
 {
         Node *myList = NULL, *node2 = NULL, *node3 = NULL;
+        int temp;
+        cout<<"Enter data value of the first node: ";
 }
