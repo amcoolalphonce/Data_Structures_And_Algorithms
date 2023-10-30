@@ -45,4 +45,6 @@ int main()
         cout << "The state of the linked list is as follows: ";
         myList->printList();
         // output should be 10 20 30
+
+        return 0;
 }
