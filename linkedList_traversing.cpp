@@ -37,4 +37,11 @@ int main()
         cin>>temp;
         node2 = new Node(temp);
         myList->next = node2;
+
+        cout << "Enter data value of next node: ";
+        cin >> temp; // assume 30 is entered
+        node3 = new Node(temp);
+        node2->next = node3;
+        cout << "The state of the linked list is as follows: ";
+        myList->printList()
 }
