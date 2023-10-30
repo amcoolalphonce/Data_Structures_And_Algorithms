@@ -32,4 +32,9 @@ int main()
         cout<<"Enter data value of the first node: ";
         cin>>temp;
         myList = new Node(temp);
+
+        cout<<"Enter data value of the next node: ";
+        cin>>temp;
+        node2 = new Node(temp);
+        myList->next = node2;
 }
