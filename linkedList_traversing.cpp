@@ -17,5 +17,8 @@ class Node
         {
                 Node *temp = this;
                 while (temp != NULL)
+                {
+                        cout<<temp->data<<" ";
+                }
         }
 }
