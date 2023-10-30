@@ -12,4 +12,9 @@ class Node
                 this->data = x;
                 this->next = NULL;
         }
+
+        void printList()
+        {
+                
+        }
 }
