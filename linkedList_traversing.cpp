@@ -23,3 +23,9 @@ class Node
                 }
         }
 };
+
+//main function to test the code
+int main()
+{
+        
+}
