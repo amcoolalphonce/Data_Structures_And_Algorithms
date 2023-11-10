@@ -4,7 +4,8 @@
 Simple sorting algorithm. Compares adjacent elements, swaps if out of order. Usage example provided.
 # 2. Insert Middle
 
-# 3. Caesar Function
 
+# 3. Caesar Function
+Encryption and decryption
 
 # 4. Vanilla Stack
