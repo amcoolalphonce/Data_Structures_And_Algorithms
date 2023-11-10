@@ -135,7 +135,7 @@ int main()
 
         vanillaStack.pop();
         vanillaStack.printStack();// 5 3  8  6
-        vanillaStack.pop();Two roads diverged in a yellow wood,
+        vanillaStack.pop();
         vanillaStack.printStack(); // 5 3  8
         vanillaStack.pop();
         vanillaStack.printStack();// 5 3 
