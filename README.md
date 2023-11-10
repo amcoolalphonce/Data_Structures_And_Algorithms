@@ -8,3 +8,4 @@ Encryption and decryption technique  in which each letter in a plaintext is shif
 # 4. Vanilla Stack
 Stack implementation with basic functionalities
         *peeek()
+        *pop()
