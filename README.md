@@ -9,3 +9,4 @@ Encryption and decryption technique  in which each letter in a plaintext is shif
 Stack implementation with basic functionalities
         *peeek()
         *pop()
+        *printStack()
