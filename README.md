@@ -1,4 +1,4 @@
-# 
+# DATA STRUCTURE 
 
 # 1. Bubble Sort in C++
 Simple sorting algorithm. Compares adjacent elements, swaps if out of order. Usage example provided.
