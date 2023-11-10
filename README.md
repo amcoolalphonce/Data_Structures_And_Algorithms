@@ -6,4 +6,4 @@ Simple sorting algorithm. Compares adjacent elements, swaps if out of order. Usa
 
 
 # 3. Caesar Function
-Encryption and decryption technique  in which each letter in a plaintext is shifted by 
+Encryption and decryption technique  in which each letter in a plaintext is shifted by a number called key
