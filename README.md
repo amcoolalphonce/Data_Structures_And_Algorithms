@@ -6,4 +6,5 @@ Simple sorting algorithm. Compares adjacent elements, swaps if out of order. Usa
 # 3. Caesar Function
 Encryption and decryption technique  in which each letter in a plaintext is shifted by a number called key
 # 4. Vanilla Stack
-Stack implementation
+Stack implementation with basic functionalities
+        *
