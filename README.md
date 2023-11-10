@@ -8,4 +8,3 @@ Simple sorting algorithm. Compares adjacent elements, swaps if out of order. Usa
 # 3. Caesar Function
 Encryption and decryption technique 
 
-# 4. Vanilla Stack
