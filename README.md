@@ -5,3 +5,6 @@ Simple sorting algorithm. Compares adjacent elements, swaps if out of order. Usa
 # 2. Insert Middle
 
 # 3. Caesar Function
+
+
+# 4. Vanilla Stack
