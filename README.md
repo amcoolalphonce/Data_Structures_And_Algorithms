@@ -7,4 +7,4 @@ Simple sorting algorithm. Compares adjacent elements, swaps if out of order. Usa
 Encryption and decryption technique  in which each letter in a plaintext is shifted by a number called key
 # 4. Vanilla Stack
 Stack implementation with basic functionalities
-        *
+        *peeek()
