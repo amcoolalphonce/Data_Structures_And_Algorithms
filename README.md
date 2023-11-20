@@ -8,7 +8,8 @@ A method to insert Data into the middle , head or tail of a node
 Encryption and decryption technique  in which each letter in a plaintext is shifted by a number called key
 # 4. Vanilla Stack
 Stack implementation with basic functionalities
-        * peeek()
-        * pop()
-        * printStack()
-        * push()
+
+ * peeek()
+ * pop()
+ * printStack()
+ * push()
